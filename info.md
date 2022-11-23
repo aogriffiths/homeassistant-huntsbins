@@ -17,7 +17,7 @@
 | `sensor`        | Show info from API.                 |
 | `switch`        | Switch something `True` or `False`. |
 
-![example][https://github.com/aogriffiths/homeassistant-huntsbins/raw/main/example.png]
+![example][exampleimg]
 
 {% if not installed %}
 
