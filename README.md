@@ -78,5 +78,5 @@ Code template was mainly taken from [@Ludeeus](https://github.com/ludeeus)'s [in
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/aogriffiths/homeassistant-huntsbins.svg?style=for-the-badge
-[releases]: https://github.com/aogriffiths/homeassistant-/releases
+[releases]: https://github.com/aogriffiths/homeassistant-huntsbins/releases
 [user_profile]: https://github.com/aogriffiths
