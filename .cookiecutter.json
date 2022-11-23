@@ -1,0 +1,11 @@
+{
+  "_output_dir": "/Users/e0654864/devel/home_auto_bfh/homeassistant-huntsbins",
+  "_template": "gh:oncleben31/cookiecutter-homeassistant-custom-component",
+  "class_name_prefix": "HuntsBins",
+  "domain_name": "hunts_bins",
+  "friendly_name": "Hunts Bins",
+  "github_user": "aogriffiths",
+  "project_name": "homeassistant-huntsbins",
+  "test_suite": "yes",
+  "version": "0.0.1"
+}

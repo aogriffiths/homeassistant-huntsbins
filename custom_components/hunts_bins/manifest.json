@@ -1,0 +1,10 @@
+{
+  "domain": "hunts_bins",
+  "name": "Hunts Bins",
+  "documentation": "https://github.com/aogriffiths/homeassistant-huntsbins",
+  "issue_tracker": "https://github.com/aogriffiths/homeassistant-huntsbins/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@aogriffiths"],
+  "requirements": []
+}
