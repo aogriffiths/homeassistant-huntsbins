@@ -14,9 +14,6 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-**TO BE REMOVED: If you need help, as a developer, to use this custom component tempalte,
-please look at the [User Guide in the Cookiecutter documentation](https://cookiecutter-homeassistant-custom-component.readthedocs.io/en/stable/quickstart.html)**
-
 **This component will set up the following platforms.**
 
 | Platform        | Description                                                               |
@@ -27,7 +24,7 @@ please look at the [User Guide in the Cookiecutter documentation](https://cookie
 
 ![example][exampleimg]
 
-## Installation
+## Installation - Manual Way
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 2. If you do not have a `custom_components` directory (folder) there, you need to create it.
@@ -37,24 +34,13 @@ please look at the [User Guide in the Cookiecutter documentation](https://cookie
 6. Restart Home Assistant
 7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Hunts Bins"
 
-Using your HA configuration directory (folder) as a starting point you should now also have this:
+Using your HA configuration directory as a starting point you should now have the files from this repository
+in the ``custom_components/hunts_bins`` directory, for example:
 
 ```text
-custom_components/hunts_bins/translations/en.json
-custom_components/hunts_bins/translations/fr.json
-custom_components/hunts_bins/translations/nb.json
-custom_components/hunts_bins/translations/sensor.en.json
-custom_components/hunts_bins/translations/sensor.fr.json
-custom_components/hunts_bins/translations/sensor.nb.json
-custom_components/hunts_bins/translations/sensor.nb.json
 custom_components/hunts_bins/__init__.py
-custom_components/hunts_bins/api.py
-custom_components/hunts_bins/binary_sensor.py
-custom_components/hunts_bins/config_flow.py
-custom_components/hunts_bins/const.py
 custom_components/hunts_bins/manifest.json
-custom_components/hunts_bins/sensor.py
-custom_components/hunts_bins/switch.py
+# and many more...
 ```
 
 ## Configuration is done in the UI
@@ -92,5 +78,5 @@ Code template was mainly taken from [@Ludeeus](https://github.com/ludeeus)'s [in
 [pre-commit]: https://github.com/pre-commit/pre-commit
 [pre-commit-shield]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/aogriffiths/homeassistant-huntsbins.svg?style=for-the-badge
-[releases]: https://github.com/aogriffiths/homeassistant-huntsbins/releases
+[releases]: https://github.com/aogriffiths/homeassistant-/releases
 [user_profile]: https://github.com/aogriffiths

@@ -100,6 +100,10 @@ You can run the tests on all repository file with the command:
 $ pre-commit run --all-files
 ```
 
+## Release
+- See https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
+- tag with Semantic Versioning (vX.X.X) https://semver.org
+
 ## License
 
 By contributing, you agree that your contributions will be licensed under its MIT License.
